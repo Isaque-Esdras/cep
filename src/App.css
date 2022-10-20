@@ -1,0 +1,93 @@
+#primeiraMain{
+  background: linear-gradient(#1981CD,#0000DD);
+  height: 100vh;
+  margin: 0%;
+}
+
+article{
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#tituloPrincipal{
+  color: aliceblue;
+  animation: abuton 2s;
+  font-size: 52pt;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 8px;
+  width: 600px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+input{
+  padding: 13px;
+  border: none;
+  border-bottom: 8px;
+  border-top: 8px;
+  border-radius: 8px;
+  font-size: 16pt;
+  outline: none;
+  width: 500px;
+
+}
+
+button{
+  font-size: 18pt;
+  background: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+
+}
+
+#informacoesCep{
+  background:#FFFFFF;
+  border-radius: 8px;
+  width: 60%;
+  font-size: 16pt;
+  padding: 8px;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  justify-items: baseline;
+}
+
+#infoArticle{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  
+
+}
+
+
+@keyframes abuton {
+  
+  from{
+
+    transform: rotateX(90deg);
+
+  }to{
+
+    transform: rotateX(0deg);
+  }
+
+}
+
+  
